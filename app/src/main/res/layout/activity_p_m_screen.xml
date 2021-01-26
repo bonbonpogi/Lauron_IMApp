@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEA5A5"
+    tools:context=".PMScreen">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="96dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="ok"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="66dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:background="#351414"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ethan" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif"
+        android:text="Ethan"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="184dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="Hoi asa na ka"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:text="ok"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="8dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif"
+        android:text="ambot"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="100dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif"
+        android:text="ok"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
